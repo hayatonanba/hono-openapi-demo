@@ -9,11 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.8.0",
+    "@hono/swagger-ui": "^0.5.1",
+    "@hono/zod-openapi": "^0.19.2",
+    "@hookform/resolvers": "^5.0.1",
     "@prisma/client": "^6.5.0",
+    "hono": "^4.7.5",
     "next": "15.2.4",
     "next-auth": "^5.0.0-beta.25",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.55.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
