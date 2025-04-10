@@ -11,7 +11,8 @@ export default async function Page() {
 
     return (
       <div>
-      {blogs.map((blog) => (
+      {/* biome-ignore lint/suspicious/noExplicitAny: <explanation> */}
+      {blogs.map((blog: any) => (
         <div key={blog.id}>
           <h2>{blog.title}</h2>
           <p>{blog.content}</p>
