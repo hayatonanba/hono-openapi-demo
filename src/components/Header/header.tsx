@@ -1,5 +1,6 @@
 //src/compoents/header.tsx
-import { auth, signIn, signOut } from "@/auth";
+import React from "react";
+import { auth, signIn, signOut } from "../../auth";
 
 export default async function Header() {
   const session = await auth()
